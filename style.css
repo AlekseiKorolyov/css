@@ -1,0 +1,563 @@
+html {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+.container {
+    border: 1px solid;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    color: rgb(94, 103, 108);    
+}
+
+.proin__text_transparent {
+    color: rgb(255 255 255 / 30%)
+}
+
+.design__text,
+.strategy__text,
+.app__text,
+.skills__text,
+.progress-bar::after,
+.experiences__text_color_white,
+.education__text_color_white,
+.proin__text,
+.contact__text,
+.form__title_color,
+.form__group input::placeholder,
+textarea::placeholder,
+.contact {
+    color: rgb(255, 255, 255);
+}
+
+a:focus,
+.title-auctor__text_sed,
+.footer__text_color,
+.contact__line_color_orange {
+    color: rgb(217, 186, 93);
+}
+
+a:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+.footer_box_18,
+.proin_box_14 {
+    width: 100%;
+    height: 250px;
+}
+
+.photo-3_box_13,
+.education_box_12,
+.experiences_box_11,
+.photo-2_box_10,
+.title-auctor_box_3 {
+    width: 50%;
+    height: 250px;
+}
+
+
+.photo-1_box_4,
+.skills_box_5,
+.design_box_6,
+.strategy_box_7,
+.app_box_8,
+.coding_box_9 {
+    width: 25%;
+    height: 250px;
+}
+
+
+.registration_box_15 {
+    width: 50%;
+    height: 400px;
+}
+
+
+.photo-4_box_16,
+.contact_box_17 {
+    width: 25%;
+    height: 400px;
+}
+
+.title_box_1,
+.presentation_box_2 {
+    width: 50%;
+    height: 700px;
+}
+
+.btn_get,
+.presentation__navigation {
+    font-weight: bold;
+}
+
+.coding__text,
+.design__text,
+.strategy__text,
+.app__text {
+    text-align: center;
+}
+
+
+.design__p_centr,
+.strategy__p_centr,
+.app__p_centr,
+.coding__p_centr {
+    padding: 0 10% 0 10%;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* title */
+.title {
+    background-position: center center;
+    background-size: cover;
+    background-image: url(images/5.jpg);
+}
+
+.title__text {
+    color: black;
+    padding: 20px 150px;
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px 0.5px #fff;
+}
+
+/* menu */
+.presentation,
+.btn_get {
+    background-color: #f0e2d7;
+}
+
+.presentation__navigation {
+    padding: 20px 45px;
+}
+
+.presentation__item {
+    padding: 15px 5px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.presentation__text {
+    display: block;
+    margin-top: 160px;
+    padding: 0px 50px;
+}
+
+
+.presentation__text h1 {
+    font-weight: normal;
+}
+
+
+.btn_get {
+    padding: 10px 20px;
+    margin: 25px 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+/* auctor */
+.title-auctor__text {
+    display: block;
+    padding: 40px 30px;
+}
+
+/* photo-1 */
+.photo-1 {
+    background-position: center center;
+    background-size: cover;
+    background-image: url(images/1.jpg);
+}
+
+/* skills */
+.skills {
+    background-color: rgb(228, 174, 88);
+}
+
+.skills__text {
+    display: block;
+    
+}
+
+.skills__text,
+.progress {
+    font-size: 10px;
+    padding: 20px 20px 0px 30px;
+}
+
+.progress__skill,
+.subject {
+    padding: 0 0 10px 0;
+}
+
+.progress-bar {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    border-bottom: 2px;
+}
+
+.progress-bar::after {
+    position: absolute;
+    content: attr(value);
+    top: -20px;
+    right: 0;
+    font-size: 10px;
+}
+
+.progress-line {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+}
+
+/* design */
+.design {
+    background-color: rgb(228, 174, 88);
+}
+
+.strategy__telegram_position,
+.design__imac_position,
+.app__table_position,
+.coding__html_position {
+    margin: 50px 0 20px 45%;
+}
+
+/* strategy */
+.strategy {
+    background-color: rgb(233, 113, 76)
+}
+
+
+/* app */
+.app {
+    background-color: rgb(22, 22, 22)
+}
+
+/* coding */
+.coding {
+    background-color: rgb(255, 255, 255)
+}
+
+/* photo-2 */
+.photo-2 {
+    background-position: center center;
+    background-size: cover;
+    background-image: url(images/4.jpg);
+}
+
+/* experience */
+.experiences {
+    background-color: rgb(233, 113, 76)
+}
+
+.experiences__row,
+.education__row {
+    width: 90%;
+}
+
+.experiences__text,
+.education__text {
+    display: block;
+    padding: 25px 0px 10px 40px;
+}
+
+.experiences__image,
+.education__image {
+    padding: 0px 15px 35px 40px;
+}
+
+
+
+.experiences__row,
+.education__row {
+    display: flex;
+}
+
+.experiences__text_color_black,
+.education__text_color_black {
+    color: #000000;
+}
+
+.experiences__text_size,
+.education__text_size {
+    font-size: 12px;
+}
+
+/* education */
+.education {
+    background-color: rgb(228, 174, 88)
+}
+
+/* photo-3 */
+.photo-3 {
+    background-position: center center;
+    background-size: cover;
+    background-image: url(images/3.jpg);
+}
+
+/* proin */
+.proin {
+    background-position: center center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(images/6.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.proin__text {
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+/* registration */
+.registration {
+    background-color: #e9714c
+}
+
+.form {
+    padding: 50px 0 0 30px;
+}
+
+.form__group {
+    width: 90%;
+}
+
+.form__group input,
+textarea {
+    width: 100%;
+    padding: 20px 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #e69b54;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+.form__button {
+    width: 250px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 0px;
+}
+
+/* photo-4 */
+.photo-4 {
+    background-position: center center;
+    background-size: cover;
+    background-image: url(images/2.jpg);
+}
+
+/* contact */
+.contact {
+    background-color: #000000
+}
+
+.contact__adres {
+    padding: 40px;
+}
+
+.contact__line {
+    padding: 25px 0px 0 40px;
+    list-style-type: none
+}
+
+.contact__line li {
+    padding: 5px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.footer__text {
+    text-align: center;
+    padding: 60px 0 30px 0;
+}
+
+.footer__link {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media all and (max-width: 1366px) {
+    .title-auctor,
+    .proin,
+    .registration,
+    .footer {
+        width: 100%;
+    }
+
+    .title,
+    .presentation,    
+    .photo-1,
+    .skills,
+    .design,
+    .strategy,
+    .app_box  .coding,
+    .photo-2,
+    .experiences,
+    .education,
+    .photo-3,
+    .photo-4,
+    .contact {
+        width: 50%;
+    }
+
+    .footer_box_18,
+    .proin_box_14 {
+        height: 250px;
+    }
+
+    .photo-3_box_13,
+    .education_box_12,
+    .experiences_box_11,
+    .photo-2_box_10,
+    .title-auctor_box_3 {
+        height: 250px;
+    }
+
+
+    .photo-1_box_4,
+    .skills_box_5,
+    .design_box_6,
+    .strategy_box_7,
+    .app_box_8,
+    .coding_box_9 {
+        height: 250px;
+    }
+
+
+    .registration_box_15 {
+        height: 400px;
+    }
+
+
+    .photo-4_box_16,
+    .contact_box_17 {
+        height: 400px;
+    }
+
+    .title_box_1,
+    .presentation_box_2 {
+        height: 700px;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    .title,
+    .presentation,
+    .title-auctor,
+    .photo-1,
+    .skills,
+    .design,
+    .strategy,
+    .app_box  .coding,
+    .photo-2,
+    .experiences,
+    .education,
+    .photo-3,
+    .proin,
+    .registration,
+    .photo-4,
+    .contact,
+    .footer {
+        width: 100%;
+    }
+
+    .footer_box_18,
+    .proin_box_14 {
+        height: 250px;
+    }
+
+    .photo-3_box_13,
+    .education_box_12,
+    .experiences_box_11,
+    .photo-2_box_10,
+    .title-auctor_box_3 {
+        height: 250px;
+    }
+
+
+    .photo-1_box_4,
+    .skills_box_5,
+    .design_box_6,
+    .strategy_box_7,
+    .app_box_8,
+    .coding_box_9 {
+        height: 250px;
+    }
+
+
+    .registration_box_15 {
+        height: 400px;
+    }
+
+
+    .photo-4_box_16,
+    .contact_box_17 {
+        height: 400px;
+    }
+
+    .title_box_1,
+    .presentation_box_2 {
+        height: 700px;
+    }
+
+}
